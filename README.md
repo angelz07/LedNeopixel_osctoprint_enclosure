@@ -7,28 +7,28 @@ use : i2cdetect -y 1
 
 connect Rpi with nano by I2C Connexion
 
-Arduino Nano SDA A4 --> Raspberry SDA BCM2(RPI) 
-Arduino Nano SCL A5 --> Raspberry SCL BCM3(RPI)
-Arduino GND 		--> Raspberry GND
+Arduino Nano SDA A4 --> Raspberry SDA BCM2(RPI)<br /> 
+Arduino Nano SCL A5 --> Raspberry SCL BCM3(RPI)<br />
+Arduino GND 		--> Raspberry GND<br /><br />
 
 Give Power on Nano with 5v and connect stripled on Nano 
 
-VCC to Aduino Nano 5V
-Gnd to Aduino Nano GND
-Signal to Arduino Nano D6
+VCC to Aduino Nano 5V<br />
+Gnd to Aduino Nano GND<br />
+Signal to Arduino Nano D6<br /><br />
 
 
 on raspberry to find I2C address of arduino nano
 
 
 Scipt to use 
-	python OctoPrint/Ruban_Neopixel.py colorWipe red
+	python OctoPrint/Ruban_Neopixel.py colorWipe red <br />
 
-	python OctoPrint/Ruban_Neopixel.py rainbow 10
+	python OctoPrint/Ruban_Neopixel.py rainbow 10 <br />
 
-	python OctoPrint/Ruban_Neopixel.py theaterChase 10
+	python OctoPrint/Ruban_Neopixel.py theaterChase 10 <br />
 
-	python OctoPrint/Ruban_Neopixel.py theaterChaseRainbow 10
+	python OctoPrint/Ruban_Neopixel.py theaterChaseRainbow 10 <br />
 	
 	
 Color Pré Configured on Nano :
